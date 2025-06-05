@@ -1,0 +1,126 @@
+body {
+  background-color: #F0FFFF;
+ 
+}
+
+.main {
+ width: 900px;
+  height: 250px;
+  margin: 0 auto;
+  padding: 40px;
+
+}
+
+/**Sección encabezado*/
+.encabezado {
+  border-radius: 30px; 
+}
+
+.encabezado_card {
+  width: 830px;
+  padding: 10px;
+  margin: 10 auto;
+   background-color:white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 17px 17px 17px rgba(0,0,0,0.1);
+}
+
+  .encabezado_img {
+    max-width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+.encabezado_h2 {
+  margin: 7 auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.encabezado_h3 {
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+}
+
+
+/* Sección contacto*/
+.contacto {
+  border-radius: 30px; ;
+}
+
+.contacto_card {
+  width: 530px;
+  padding: 10px;
+    margin-left: auto;
+   background-color:#F5F5F5;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+ box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+}
+
+/* Sección resumen*/
+
+.resumen {
+  border-radius: 30px; 
+}
+
+.resumen_card {
+  width: 530px;
+  padding: 10px;
+  margin-right: auto;
+   background-color:#F5F5F5;;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+}
+
+/* Sección experiencia_laboral*/
+
+.experiencia_laboral {
+  border-radius: 30px; 
+}
+
+.experiencia_laboral_card {
+   width: 530px;
+  padding: 10px;
+    margin-left: auto;
+   background-color:#F5F5F5;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+ box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+}
+
+/* Sección educacion*/
+.educacion {
+  border-radius: 30px; 
+}
+
+.educacion_card {
+   width: 530px;
+  padding: 10px;
+  margin-right: auto;
+   background-color:#F5F5F5;;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+}
+
+/* Sección habilidades*/
+.habilidades {
+  border-radius: 30px; 
+}
+
+.habilidades_card {
+  width: 530px;
+  padding: 10px;
+    margin-left: auto;
+   background-color:#F5F5F5;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+ box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+}
+
