@@ -1,44 +1,71 @@
 body {
-  background-color: #F0FFFF;
- 
+  background-color: #d6dbdf;
+
 }
 
 .main {
- width: 900px;
+  width: 900px;
   height: 250px;
   margin: 0 auto;
   padding: 40px;
 
 }
 
+.texto_titulo_card {
+  color: #34495e;
+  font-size: xx-large;
+  font-family: sans-serif
+}
+
+.texto_cuerpo_card {
+  color:#34495e
+  font-size: medium;
+  font-family: sans-serif
+}
+
 /**Sección encabezado*/
 .encabezado {
-  border-radius: 30px; 
+  border-radius: 30px;
 }
 
 .encabezado_card {
   width: 830px;
   padding: 10px;
   margin: 10 auto;
-   background-color:white;
-  border: 1px solid #ddd;
+  background-color: white;
+   border: 2px solid #34495e;
   border-radius: 10px;
-  box-shadow: 17px 17px 17px rgba(0,0,0,0.1);
+  box-shadow: 25px 20px 20px rgba(0, 0, 0, 0.1);
 }
 
-  .encabezado_img {
-    max-width: 300px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
+.encabezado_img { 
+  max-width: 300px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+   border-radius: 30%;
+    border: 2px solid #34495e;
+}
 
 .encabezado_h2 {
   margin: 7 auto;
   padding: 5px;
   text-align: center;
+  color: #34495e;
+  font-size: xx-large;
+  font-family: sans-serif
 }
+
+.encabezado_subtitulo_h2 {
+  margin: 7 auto;
+  padding: 5px;
+  text-align: center;
+  color: #85929e;
+  font-size: 20;
+  font-family: sans-serif
+}
+
 
 .encabezado_h3 {
   margin: 0 auto;
@@ -49,78 +76,83 @@ body {
 
 /* Sección contacto*/
 .contacto {
-  border-radius: 30px; ;
+  border-radius: 30px;
+  ;
 }
 
 .contacto_card {
   width: 530px;
-  padding: 10px;
-    margin-left: auto;
-   background-color:#F5F5F5;
-  border: 1px solid #ddd;
+  padding: 16px;
+  margin-left: auto;
+  background-color: #F5F5F5;
+  border: 2px solid #34495e;
   border-radius: 10px;
- box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+  box-shadow: 25px 20px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: .8em;
 }
 
 /* Sección resumen*/
 
 .resumen {
-  border-radius: 30px; 
+  border-radius: 30px;
 }
 
 .resumen_card {
-  width: 530px;
-  padding: 10px;
+  width: 540px;
+  padding: 20px;
   margin-right: auto;
-   background-color:#F5F5F5;;
-  border: 1px solid #ddd;
+  background-color: #F5F5F5;
+   border: 2px solid #34495e;
   border-radius: 10px;
-  box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+   box-shadow: 25px 20px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: .8em;
 }
 
 /* Sección experiencia_laboral*/
 
 .experiencia_laboral {
-  border-radius: 30px; 
+  border-radius: 30px;
 }
 
 .experiencia_laboral_card {
-   width: 530px;
+  width: 530px;
   padding: 10px;
-    margin-left: auto;
-   background-color:#F5F5F5;
-  border: 1px solid #ddd;
+  margin-left: auto;
+  background-color: #F5F5F5;
+  border: 2px solid #34495e;
   border-radius: 10px;
- box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+   box-shadow: 25px 20px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: .8em;
 }
 
 /* Sección educacion*/
 .educacion {
-  border-radius: 30px; 
+  border-radius: 30px;
 }
 
 .educacion_card {
-   width: 530px;
+  width: 530px;
   padding: 10px;
   margin-right: auto;
-   background-color:#F5F5F5;;
-  border: 1px solid #ddd;
+  background-color: #F5F5F5;
+  border: 2px solid #34495e;
   border-radius: 10px;
-  box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+  box-shadow: 25px 20px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: .8em;
 }
 
 /* Sección habilidades*/
 .habilidades {
-  border-radius: 30px; 
+  border-radius: 30px;
 }
 
 .habilidades_card {
   width: 530px;
   padding: 10px;
-    margin-left: auto;
-   background-color:#F5F5F5;
-  border: 1px solid #ddd;
+  margin-left: auto;
+  background-color: #F5F5F5;
+   border: 2px solid #34495e;
   border-radius: 10px;
- box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+  box-shadow: 25px 20px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: .8em;
 }
-
